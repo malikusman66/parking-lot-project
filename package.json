@@ -1,16 +1,16 @@
 {
   "name": "boilerplate-react-vite",
   "version": "0.0.0",
+  "license": "Apache-2.0",
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "test": "jest",
     "test:watch": "yarn test --watch",
-    "lint": "eslint src --ext ts,tsx",
+    "lint": "eslint src --ext js,jsx",
     "lint:fix": "yarn lint --fix",
-    "type-check": "tsc --project tsconfig.json --pretty --noEmit",
     "prepare": "husky install",
     "update-deps": "node ./src/config/update-deps.mjs"
   },
